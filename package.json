@@ -22,8 +22,8 @@
   },
   "types": "./types/index.d.ts",
   "dependencies": {
-    "fabric-client": "file:../fabric-client",
-    "fabric-ca-client": "file:../fabric-ca-client",
+    "fabric-client": "git://github.com/LeMarwin/fabric-disorder-client.git",
+    "fabric-ca-client": "git://github.com/LeMarwin/fabric-disorder-ca.git",
     "nano": "^6.4.4",
     "rimraf": "^2.6.2",
     "uuid": "^3.2.1",
