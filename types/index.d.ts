@@ -65,6 +65,7 @@ export class Contract {
 	public createTransaction(name: string): Transaction;
 	public evaluateTransaction(name: string, ...args: string[]): Promise<Buffer>;
 	public submitTransaction(name: string, ...args: string[]): Promise<Buffer>;
+	public submitUnorderedTx(name: string, ...args: string[]): Promise<Buffer>;
 }
 
 export interface TransientMap {
