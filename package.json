@@ -27,7 +27,7 @@
     "nano": "^6.4.4",
     "rimraf": "^2.6.2",
     "uuid": "^3.2.1",
-    "jsrsasign": "^7.2.2",
+    "jsrsasign": "^8.0.20",
     "fs-extra": "^6.0.1"
   },
   "devDependencies": {
